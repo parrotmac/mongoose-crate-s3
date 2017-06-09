@@ -22,6 +22,7 @@ PostSchema.plugin(crate, {
     key: '<api-key-here>',
     secret: '<secret-here>',
     bucket: '<bucket-here>',
+    endpoint: '<endpoint-here>', // Optional, defaults to s3.amazonaws.com
     acl: '<acl-here>', // defaults to public-read
     region: '<region-here>', // defaults to us-standard
     // where the file is stored in the bucket - defaults to this function
